@@ -180,3 +180,22 @@ p {
 span {
     color: #acacac;
 }
+@media screen and (max-width:1200px) {
+    .bar_icon{
+        display: flex !important;
+    }
+    .nav_bar>ul{
+display: none !important;
+    }
+    
+}
+
+.bar_icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
