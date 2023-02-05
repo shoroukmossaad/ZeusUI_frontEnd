@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-color: rgb(0, 0, 0);
+    --bg-dark: rgba(88, 35, 62, 1);
+    --bg-light: #ffffff;
+    --second-color: rgb(255, 255, 255);
+
+}
+
+.containe {
+    width: 90%;
+    margin: auto;
+
+
+}
+
+
+/* nav_bar style */
+
+
+.nav_bar {
+
+    background-color: var(--bg-light);
+    padding: .2rem 0rem;
+
+    /* border:  */
+
+    border-bottom: 1px solid rgb(204, 204, 204);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.nav_bar .containe {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.listL>li,
+.listR>li {
+    list-style: none;
+    width: 30%;
+
+
+}
+
+.listL,
+.listR {
+    display: flex;
+    width: 30%;
+}
+
+.listL>li>a,
+.listR>li>a {
+    text-decoration: none;
+    justify-content: space-between;
+
+
+}
+
+.img_nav .flash {
+    width: 1.5rem;
+
+}
+
+/* banner style */
+
+.banner {
+    height: calc(100vh - 200px);
+    background: url(../images/Hero.png);
+
+}
+
+.banner .containe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .containe .overlay>h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 4rem;
+    letter-spacing: .3rem;
+
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+.banner .containe .overlay .btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.letSell {
+    background-color: var(--bg-dark);
+    color: var(--second-color);
+    padding: .8rem;
+    border: none;
+    border-radius: 1rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+
+
+}
+
+/* section1 style */
+
+.headerIcons .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: calc(100vh - 44px); */
+
+}
+
+.headerIcons .containe {
+    /* height: calc(100vh - 44px); */
+
+}
+
+.headerIcons .img_logo {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+
+
+}
+
+.headerIcons .img_logo>img {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: .5rem;
+}
+
+
+.sec1 .text>h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding: 2rem;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collection .item {
+    width: 30%;
+
+}
+
+.item .item_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #acacac;
+}
